@@ -35,6 +35,7 @@
 
 | Category | Prompts | Models | Description |
 |:---------|:--------|:-------|:------------|
+| **🎯 General** | 50+ | All | Everyday tasks: Q&A, summarization, planning, writing |
 | **💼 Business & Marketing** | 85+ | All | Sales copy, marketing campaigns, business analysis |
 | **💻 Development & Code** | 120+ | GPT-4, o3, Claude 4 | Code generation, debugging, documentation |
 | **🎨 Creative & Content** | 90+ | All | Writing, storytelling, creative briefs |
@@ -63,6 +64,25 @@ ls prompts/
 2. **Search by Model**: Check `/models/[ai-model]/` for optimized prompts
 3. **Use Templates**: Copy from `/templates/` and customize variables
 4. **Check Examples**: Review `/examples/` for real-world implementations
+
+## 🎯 **General Prompts**
+
+<a name="general-prompts"></a>
+
+Universal, model-agnostic prompts for everyday tasks. These work out-of-the-box with any major AI model.
+
+| Prompt | Description | Models | Rating |
+|:-------|:------------|:-------|:------:|
+| [**General Assistant**](prompts/general/general-assistant.md) | Versatile Q&A and task helper | All Models | ⭐ 4.7 |
+| [**Summarizer**](prompts/general/summarizer.md) | Condense any content into clear summaries | All Models | ⭐ 4.8 |
+| [**Task Planner**](prompts/general/task-planner.md) | Break down goals into actionable steps | GPT-4, Claude 4, Gemini 2.5 | ⭐ 4.7 |
+| [**Problem Solver**](prompts/general/problem-solver.md) | Structured analysis and solution generation | o3, Claude 4 | ⭐ 4.8 |
+| [**Writing Assistant**](prompts/general/writing-assistant.md) | Improve, edit, or draft any text | All Models | ⭐ 4.7 |
+| [**Research Helper**](prompts/general/research-helper.md) | Gather, synthesize, and explain information | Gemini 2.5, Claude 4 | ⭐ 4.6 |
+
+➡️ **[Browse all General Prompts](prompts/general/)**
+
+---
 
 ## 🤖 **Supported AI Models**
 
